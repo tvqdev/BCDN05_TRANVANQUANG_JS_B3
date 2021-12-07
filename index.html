@@ -14,21 +14,24 @@
 <body>
      <div class="container">
           <div class="center">
-               <p>Bài 1: Xuất 3 số theo thứ tự tăng dần</p>
-               <form>
-                    <input type="number" id="number1">
+               <h3>Bài 1: Xuất 3 số theo thứ tự tăng dần</h3>
+               <br>
+               <form class="text-field">
+                    <input type="number" id="number1"> <br>
                     <input type="number" id="number2">
+                    <br>
                     <input type="number" id="number3">
+                    <br>
                     <p id="abc"></p>
-
-                    <button type="button" onclick="sorts()">Sắp Xếp</button>
+                    <br>
+                    <button class="button-effect" type="button" onclick="sorts()">Sắp Xếp</button>
                </form>
           </div>
           <br>
           <div class="center">
-               <p>Bài 2: “Chào hỏi” các thành viên trong gia đình</p>
-
-               <select name="" id="family">
+               <h3>Bài 2: “Chào hỏi” các thành viên trong gia đình</h3>
+               <br>
+               <select class="line-text" name="" id="family">
                     <option value="">Chọn thành viên</option>
                     <option value="b">Bố</option>
                     <option value="m">Mẹ</option>
@@ -36,36 +39,34 @@
                     <option value="e">Em gái</option>
 
                </select>
-               <button type="button" onclick="hellofamily()">Gửi</button>
-               <p id="hello"></p>
+               <br>
+               <br>
+               <p id="sendTo"></p>
+               <br>
+               <button class="button-effect" type="button" onclick="sendTofamily()">Gửi lời chào</button>
           </div>
           <br>
           <div class="center">
-               <p>Bài 3: </p>
-
-               <form>
-                    <input type="number" id="num1">
-                    <input type="number" id="num2">
-                    <input type="number" id="num3">
-                    <p id="xyz"></p>
-
-
-
-                    <button type="button" onclick="decs()">Sắp Xếp</button>
+               <h3>Bài 3:Cho 3 số nguyên. Viết chương trình xuất ra có bao nhiêu số lẻ và bao nhiêu số chẵn. </h3>
+               <br>
+               <form class="text-field">
+                    <input type="number" id="num1"><br>
+                    <input type="number" id="num2"><br>
+                    <input type="number" id="num3"><br>
+                    <p id="inra"></p><br>
+                    <button class="button-effect" type="button" onclick="dem()">Đếm</button>
                </form>
           </div>
+          <br>
           <div class="center">
-               <p>Bài 4:</p>
+               <h3>Bài 4: Viết chương trình cho nhập 3 cạnh của tam giác. Hãy cho biết đó là tam giác gì?</h3>
 
-               <form>
-                    <input type="number" id="t1">
-                    <input type="number" id="t2">
-                    <input type="number" id="t3">
-                    <p id="rty"></p>
-
-
-
-                    <button type="button" onclick="tamgiac()">Sắp Xếp</button>
+               <form class="text-field">
+                    <input type="number" id="t1"><br>
+                    <input type="number" id="t2"><br>
+                    <input type="number" id="t3"><br>
+                    <p id="num"></p><br>
+                    <button class="button-effect" type="button" onclick="tamgiac()">Dự đoán</button>
                </form>
           </div>
      </div>
